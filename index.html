@@ -7,13 +7,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .row> div{
+            border: 1px solid grey;
+            background-color: #fafafa;
+        }
+    </style>
 </head>
 <body>
-  
-    <div class="container">
-        <div class="row"></div>
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-6 bg-primary"><h2>This is column-1</h2></div>
+          <div class="col-xl-6 bg-secondary"><h2>This is column-2</h2></div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="row mt-4 ">
+          <div class="col-xl-2">col XL</div>
+          <div class="col-xl-2">col XL</div>
+          <div class="col-xl-2">col XL</div>
+          <div class="col-xl-2">col XL</div>
+          <div class="col-xl-2">col XL</div>
+          <div class="col-xl-2">col XL</div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col">hello</div>
+        <div class="col">hello</div>
+        <div class="col">hello</div>
     </div>
 
+   <div class="row mt-4">
+    <div class="col-xl-2">this is hasan</div>
+    <div class="col-xl-4">this is hasan</div>
+    <div class="col-xl-4">this is hasan</div>
+    <div class="col-xl-2">this is hasan</div>
+   </div>
+
+  </div>
+
+  <div class="container mt-5">
+      <div class="row g-0">
+         <div class="col-xl-4"> <div class="border"> column </div> </div>
+         <div class="col-xl-4"> <div class="border"> column </div> </div>
+         <div class="col-xl-4"> <div class="border"> column </div> </div>
+          
+      </div>
+  </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
